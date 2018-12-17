@@ -14,3 +14,4 @@
 
 
 - Rode: `python pesquisa`
+https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
