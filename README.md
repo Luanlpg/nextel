@@ -19,3 +19,4 @@ https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
 - Rode: `python pesquisa`
 
     - Será printado na tela o resultado e será criado o arquivo output.json com o resultado.
+    - Caso queira testar outras palavras, apenas altere os valores da chave "google-me" em input.json
