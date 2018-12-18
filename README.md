@@ -14,4 +14,5 @@
 
 
 - Rode: `python pesquisa`
-https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
+
+    - Será printado na tela o resultado e será criado o arquivo output.json com o resultado.
