@@ -31,9 +31,6 @@ class Pesquisa:
             self.navigate()
             # adc texto na caixa de pesquisa e clica no btn pesuisa
             self.driver.find_element_by_name(self.search_bar).send_keys(word+'"')
-            #print(self.driver.current_url)
-            #self.driver.find_element_by_id(self.img_google).click()
-            #time.sleep(3)
             self.driver.find_element_by_class_name(self.btn_search).click()
 
             return self.driver.page_source
