@@ -2,7 +2,10 @@
 
 ## Instalação de requisitos (NECESSÁRIO:Python 3.6.0+, pip(Atualizado) e GeckoDriver(Firefox-Atualizado)
 
-- Instalação básica do geckodriver: https://take.net/blog/take-test/instalacao-geckodriver-driver-para-abrir-o-firefox-no-selenium/
+- Instalação básica do geckodriver no windows: https://take.net/blog/take-test/instalacao-geckodriver-driver-para-abrir-o-firefox-no-selenium/
+
+- Instalação básica do geckodriver no ubuntu:
+https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu
 
 - Crie um ambiente virtual de sua preferência (Recomendado/Opcional)
 
