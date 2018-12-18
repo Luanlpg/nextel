@@ -9,7 +9,7 @@ options = Options()
 options.add_argument("--headless")
 
 class Pesquisa:
-    def __init__(self, driver=webdriver.Firefox()):#firefox_options=options)):
+    def __init__(self, driver=webdriver.Firefox(firefox_options=options)):
         self.driver = driver
         self.url = 'https://www.google.com/search?source=hp&ei=QxIYXNOAOcWewgSdxoVY&q=%22&btnK=Pesquisa+Google&oq=%22&gs_l=psy-ab.3..35i39l10.3524.3524..3952...2.0..0.129.226.1j1......0....1..gws-wiz.....6.n2q9JlJYQQc'
         self.search_bar = 'q' # name
