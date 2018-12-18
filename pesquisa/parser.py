@@ -29,7 +29,7 @@ class Pesquisa:
         """
         try:
             self.navigate()
-            # adc texto na caixa de pesquisa e clica no btn pesuisa
+            # adc texto na caixa de pesquisa e clica no btn pesquisa
             self.driver.find_element_by_name(self.search_bar).send_keys(word+'"')
             self.driver.find_element_by_class_name(self.btn_search).click()
 
